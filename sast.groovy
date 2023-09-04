@@ -8,6 +8,7 @@ def test() {
 
 def sast() {
     echo "Running SAST analysis on code..."
+    test()
     groovyScript.test()
 }
 return this

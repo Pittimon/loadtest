@@ -11,7 +11,7 @@ def test() {
 
 def sast() {
     echo "Running SAST analysis on code..."
-    test()
-    groovyScript.test()
+    def script = test()
+    script.test()
 }
 return this

@@ -4,6 +4,9 @@ def test() {
 
     def groovyScript = load(groovyScriptPath)
     echo "Groovy script content: ${groovyScript}"
+
+    return groovyScript
+
 }
 
 def sast() {

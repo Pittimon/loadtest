@@ -19,7 +19,6 @@ def sast() {
     def groovyScript = script.groovyScript
     def Bobo = script.Bobo
 
-    sh "echo Groovy script content: \${groovyScript}"
-    sh "echo Bobo: \${Bobo}"
+    return [groovyScript: groovyScript, Bobo: bobo]
 }
 return this

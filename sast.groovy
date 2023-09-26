@@ -5,6 +5,8 @@ def test() {
     def groovyScript = load(groovyScriptPath)
     echo "Groovy script content: ${groovyScript}"
 
+    Bobo = "cat"
+
     return groovyScript
 
 }

@@ -22,4 +22,4 @@ def sast() {
     sh "echo Groovy script content: \${groovyScript}"
     sh "echo Bobo: \${Bobo}"
 }
-
+return this

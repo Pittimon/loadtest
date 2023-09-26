@@ -21,4 +21,3 @@ def sast() {
 
     return [groovyScript: groovyScript, Bobo: Bobo]
 }
-return this

@@ -17,7 +17,7 @@ def sast() {
     script.groovyScript.test()
 
     def groovyScript = script.groovyScript
-    def Bobo = script.Bobo
+    Bobo = script.Bobo
 
     return [groovyScript: groovyScript, Bobo: Bobo]
 }

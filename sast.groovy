@@ -10,8 +10,6 @@ def test() {
     return [groovyScript: groovyScript, Bobo: Bobo]
 }
 
-}
-
 def sast() {
     echo "Running SAST analysis on code..."
     def script = test()

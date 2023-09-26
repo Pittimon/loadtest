@@ -14,7 +14,7 @@ def sast() {
     echo "Running SAST analysis on code..."
     def script = test()
     echo " script: ${script}"
-    script.test()
+    script.groovyScript.test()
 
     def groovyScript = script.groovyScript
     def Bobo = script.Bobo

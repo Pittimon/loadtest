@@ -5,14 +5,15 @@ def test() {
     def groovyScript = load(groovyScriptPath)
     echo "Groovy script content: ${groovyScript}"
 
-    def Bobo = "cat"
+    def bobo = "cat"
 
-    return [groovyScript: groovyScript, Bobo: Bobo]
+    return [groovyScript: groovyScript, Bobo: bobo]
 }
 
 def sast() {
     echo "Running SAST analysis on code..."
     def script = test()
+    echo " script: ${script}"
     script.test()
 
     def groovyScript = script.groovyScript

@@ -1,6 +1,6 @@
 def parameter() {
         def options = [
-                        parameter([
+                        parameters([
                                 extendedChoice(description: '', multiSelectDelimiter: ',', name: 'subsidiary', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_SINGLE_SELECT', value: 'SCB,SCB Plus,SCBPT,SCBAM,SCBS,SCBJBTH,SCBJBSG,PPV-Purple Venture,Tech X,Card X,MONIX,ABACUS,SCBTC,MHS (Mahitsorn),RAMC,SCB Myanmar,CCB,SCB10X,Digital Venture,Buzz,SCB Leasing,SCB LIFE ,TOKEN X ,SCB FOUNDATION', visibleItemCount: 24)
                                 string(defaultValue: 'P12345-05' , description: '***REQUIRE_FIELD*** - if no, please contact your IT project manager ', name: 'URnumber')
                                 string(defaultValue: 'SAT2020_00161' , description: '***REQUIRE_FIELD*** In case project doesn\'t have SAT ticket please contact: SATteam@scb.co.th example: SAT20xx_00000 ', name: 'SATticket')
